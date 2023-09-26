@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/avi/Downloads/cm22/Project_2/Face_recognition_cleaned_and_ready/app/.cxx/Debug/6y736f3j/armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/facerecognition.dir/CameraApp.cpp.o
+[2/2] Linking CXX shared library /home/avi/Downloads/cm22/Project_2/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/6y736f3j/obj/armeabi-v7a/libfacerecognition.so

@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "facerecognition",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "app_glue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app_glue-Debug-4cf6ba2dff5cb91792cd.json",
+					"name" : "app_glue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "facerecognition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-facerecognition-Debug-c61e015a0b96b925482a.json",
+					"name" : "facerecognition",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sachin/office_work/QDN/Face_recognition_cleaned_and_ready/app/.cxx/Debug/446bs1r2/armeabi-v7a",
+		"source" : "/home/sachin/office_work/QDN/Face_recognition_cleaned_and_ready/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

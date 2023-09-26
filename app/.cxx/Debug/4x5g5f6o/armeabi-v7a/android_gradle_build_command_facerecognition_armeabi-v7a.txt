@@ -1,0 +1,7 @@
+Executable : /home/sahil/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/sahil/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/4x5g5f6o/armeabi-v7a
+facerecognition
+jvmArgs : 
+

@@ -1,0 +1,4 @@
+C:/Users/sbsba/Downloads/onetry/onetry/app/.cxx/Debug/40a6i4v4/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/sbsba/Downloads/onetry/onetry/app/.cxx/Debug/40a6i4v4/armeabi-v7a/CMakeFiles/onetry.dir
+C:/Users/sbsba/Downloads/onetry/onetry/app/.cxx/Debug/40a6i4v4/armeabi-v7a/CMakeFiles/app_glue.dir
+C:/Users/sbsba/Downloads/onetry/onetry/app/.cxx/Debug/40a6i4v4/armeabi-v7a/CMakeFiles/rebuild_cache.dir

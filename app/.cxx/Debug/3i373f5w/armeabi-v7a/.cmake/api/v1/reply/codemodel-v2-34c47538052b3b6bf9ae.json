@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "depthestimation",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "app_glue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app_glue-Debug-9b88a68a61fb596cd4d2.json",
+					"name" : "app_glue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depthestimation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depthestimation-Debug-74d64c220e4cec5a01b2.json",
+					"name" : "depthestimation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/krishnapriya/Desktop/Office_work/Andriod_studio/Depth_Estimation/app/.cxx/Debug/3i373f5w/armeabi-v7a",
+		"source" : "/home/krishnapriya/Desktop/Office_work/Andriod_studio/Depth_Estimation/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

@@ -1,0 +1,19 @@
+# ninja log v5
+2	3275	1691562224	CMakeFiles/facerecognition.dir/Native_Camera.cpp.o	357f154f88e7f873
+1	9776	1691562231	CMakeFiles/facerecognition.dir/Image_Reader.cpp.o	d198fc46cd554591
+1	16582	1691562237	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	98a9bdb15f42d34e
+1	16757	1691562238	CMakeFiles/facerecognition.dir/native-lib.cpp.o	a65b7b5395a8cf88
+9	17010	1691562238	CMakeFiles/facerecognition.dir/qcsnpe.cpp.o	c2827dd58f1968db
+17010	21915	1691562243	/home/sahil/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/4x5g5f6o/obj/armeabi-v7a/libfacerecognition.so	2373a900b1273fa2
+107	2514	1691565714	CMakeFiles/facerecognition.dir/Native_Camera.cpp.o	357f154f88e7f873
+79	6324	1691565718	CMakeFiles/facerecognition.dir/Image_Reader.cpp.o	d198fc46cd554591
+93	12240	1691565723	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	98a9bdb15f42d34e
+53	12459	1691565724	CMakeFiles/facerecognition.dir/native-lib.cpp.o	a65b7b5395a8cf88
+111	13650	1691565725	CMakeFiles/facerecognition.dir/qcsnpe.cpp.o	c2827dd58f1968db
+13650	17934	1691565729	/home/sahil/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/4x5g5f6o/obj/armeabi-v7a/libfacerecognition.so	2373a900b1273fa2
+2	1041	1691567238	CMakeFiles/depthestimation.dir/Native_Camera.cpp.o	fbcc071ddb1b2678
+0	4379	1691567242	CMakeFiles/depthestimation.dir/Image_Reader.cpp.o	4c376d1af2a33b5b
+0	11664	1691567249	CMakeFiles/depthestimation.dir/native-lib.cpp.o	703667ae00c4a724
+1	12330	1691567250	CMakeFiles/depthestimation.dir/CameraApp.cpp.o	4ec9ff7abe88037c
+10	14237	1691567252	CMakeFiles/depthestimation.dir/qcsnpe.cpp.o	6ce45ffc9517a478
+14237	18057	1691567255	/home/sahil/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/4x5g5f6o/obj/armeabi-v7a/libdepthestimation.so	982032834ba00483

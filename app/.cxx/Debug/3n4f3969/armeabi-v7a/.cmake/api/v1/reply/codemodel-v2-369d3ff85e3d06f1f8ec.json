@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "facerecognition",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "app_glue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app_glue-Debug-c237b244e8877a004f1b.json",
+					"name" : "app_glue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "facerecognition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-facerecognition-Debug-9ad2de5d09dc5f90031d.json",
+					"name" : "facerecognition",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/.cxx/Debug/3n4f3969/armeabi-v7a",
+		"source" : "/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

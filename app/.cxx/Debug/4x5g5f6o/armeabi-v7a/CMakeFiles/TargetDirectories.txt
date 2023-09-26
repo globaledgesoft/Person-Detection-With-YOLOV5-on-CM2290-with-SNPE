@@ -1,0 +1,4 @@
+/home/sahil/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/4x5g5f6o/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/sahil/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/4x5g5f6o/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/sahil/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/4x5g5f6o/armeabi-v7a/CMakeFiles/depthestimation.dir
+/home/sahil/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/4x5g5f6o/armeabi-v7a/CMakeFiles/app_glue.dir

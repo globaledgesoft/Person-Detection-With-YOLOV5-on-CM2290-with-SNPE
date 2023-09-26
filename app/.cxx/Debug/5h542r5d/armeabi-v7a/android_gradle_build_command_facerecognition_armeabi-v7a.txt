@@ -1,0 +1,7 @@
+Executable : /home/sachin/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/sachin/office_work/onetry_demo_2/onetry/onetry/app/.cxx/Debug/5h542r5d/armeabi-v7a
+depthestimation
+jvmArgs : 
+

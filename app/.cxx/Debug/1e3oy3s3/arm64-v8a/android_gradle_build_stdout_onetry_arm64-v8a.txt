@@ -1,0 +1,119 @@
+ninja: Entering directory `/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/1e3oy3s3/arm64-v8a'
+[1/1] Linking CXX shared library /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/1e3oy3s3/obj/arm64-v8a/libonetry.so
+FAILED: /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/1e3oy3s3/obj/arm64-v8a/libonetry.so 
+: && /home/sachin/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++17 -Werror  -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  -u ANativeActivity_onCreate -shared -Wl,-soname,libonetry.so -o /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/1e3oy3s3/obj/arm64-v8a/libonetry.so CMakeFiles/onetry.dir/native-lib.cpp.o CMakeFiles/onetry.dir/Image_Reader.cpp.o CMakeFiles/onetry.dir/CameraApp.cpp.o CMakeFiles/onetry.dir/Native_Camera.cpp.o CMakeFiles/onetry.dir/qcsnpe.cpp.o CMakeFiles/onetry.dir/utils.cpp.o  -lcamera2ndk  -lmediandk  -landroid  -llog  -lm  /home/sachin/Android/Sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/24/liblog.so  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_gapi.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_highgui.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_ml.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_objdetect.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_photo.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_stitching.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_video.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_videoio.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libade.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgcodecs.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibjpeg-turbo.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibwebp.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibpng.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibtiff.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibopenjp2.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libIlmImf.a  -landroid -llog -lmediandk  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_dnn.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/liblibprotobuf.a  -landroid  -llog  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libquirc.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_calib3d.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_features2d.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_flann.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/arm64-v8a/libopencv_core.a  -llog  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtbb.a  -lc  -lm  -lz  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libcpufeatures.a  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libittnotify.a  -ldl  /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/arm64-v8a/libtegra_hal.a  -latomic -lm && :
+ld: error: undefined symbol: dlib::base64::base64()
+>>> referenced by frontal_face_detector.h:115 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/frontal_face_detector.h:115)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::get_serialized_frontal_faces())
+
+ld: error: undefined symbol: dlib::base64::decode(std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >&, std::__ndk1::basic_ostream<char, std::__ndk1::char_traits<char> >&) const
+>>> referenced by frontal_face_detector.h:2358 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/frontal_face_detector.h:2358)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::get_serialized_frontal_faces())
+
+ld: error: undefined symbol: dlib::base64::~base64()
+>>> referenced by frontal_face_detector.h:2368 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/frontal_face_detector.h:2368)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::get_serialized_frontal_faces())
+>>> referenced by frontal_face_detector.h:2368 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/frontal_face_detector.h:2368)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::get_serialized_frontal_faces())
+
+ld: error: undefined symbol: dlib::entropy_decoder_kernel_2::entropy_decoder_kernel_2()
+>>> referenced by compress_stream_kernel_1.h:180 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../compress_stream/compress_stream_kernel_1.h:180)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::compress_stream_kernel_1<dlib::entropy_encoder_model_kernel_5<257ul, dlib::entropy_encoder_kernel_2, 200000ul, 4ul>, dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>, dlib::crc32>::decompress(std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >&, std::__ndk1::basic_ostream<char, std::__ndk1::char_traits<char> >&) const)
+
+ld: error: undefined symbol: dlib::entropy_decoder_kernel_2::set_stream(std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >&)
+>>> referenced by compress_stream_kernel_1.h:181 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../compress_stream/compress_stream_kernel_1.h:181)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::compress_stream_kernel_1<dlib::entropy_encoder_model_kernel_5<257ul, dlib::entropy_encoder_kernel_2, 200000ul, 4ul>, dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>, dlib::crc32>::decompress(std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >&, std::__ndk1::basic_ostream<char, std::__ndk1::char_traits<char> >&) const)
+
+ld: error: undefined symbol: dlib::entropy_decoder_kernel_2::get_target(unsigned int)
+>>> referenced by compress_stream_kernel_1.h:196 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../compress_stream/compress_stream_kernel_1.h:196)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::compress_stream_kernel_1<dlib::entropy_encoder_model_kernel_5<257ul, dlib::entropy_encoder_kernel_2, 200000ul, 4ul>, dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>, dlib::crc32>::decompress(std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >&, std::__ndk1::basic_ostream<char, std::__ndk1::char_traits<char> >&) const)
+>>> referenced by entropy_decoder_model_kernel_5.h:422 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../entropy_decoder_model/entropy_decoder_model_kernel_5.h:422)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>::decode(unsigned long&))
+>>> referenced by entropy_decoder_model_kernel_5.h:551 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../entropy_decoder_model/entropy_decoder_model_kernel_5.h:551)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>::decode(unsigned long&))
+
+ld: error: undefined symbol: dlib::entropy_decoder_kernel_2::decode(unsigned int, unsigned int)
+>>> referenced by compress_stream_kernel_1.h:201 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../compress_stream/compress_stream_kernel_1.h:201)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::compress_stream_kernel_1<dlib::entropy_encoder_model_kernel_5<257ul, dlib::entropy_encoder_kernel_2, 200000ul, 4ul>, dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>, dlib::crc32>::decompress(std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >&, std::__ndk1::basic_ostream<char, std::__ndk1::char_traits<char> >&) const)
+>>> referenced by entropy_decoder_model_kernel_5.h:456 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../entropy_decoder_model/entropy_decoder_model_kernel_5.h:456)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>::decode(unsigned long&))
+>>> referenced by entropy_decoder_model_kernel_5.h:503 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../entropy_decoder_model/entropy_decoder_model_kernel_5.h:503)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>::decode(unsigned long&))
+>>> referenced 1 more times
+
+ld: error: undefined symbol: dlib::entropy_decoder_kernel_2::~entropy_decoder_kernel_2()
+>>> referenced by compress_stream_kernel_1.h:245 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../compress_stream/compress_stream_kernel_1.h:245)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::compress_stream_kernel_1<dlib::entropy_encoder_model_kernel_5<257ul, dlib::entropy_encoder_kernel_2, 200000ul, 4ul>, dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>, dlib::crc32>::decompress(std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >&, std::__ndk1::basic_ostream<char, std::__ndk1::char_traits<char> >&) const)
+>>> referenced by compress_stream_kernel_1.h:245 (/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../compress_stream/compress_stream_kernel_1.h:245)
+>>>               CMakeFiles/onetry.dir/CameraApp.cpp.o:(dlib::compress_stream_kernel_1<dlib::entropy_encoder_model_kernel_5<257ul, dlib::entropy_encoder_kernel_2, 200000ul, 4ul>, dlib::entropy_decoder_model_kernel_5<257ul, dlib::entropy_decoder_kernel_2, 200000ul, 4ul>, dlib::crc32>::decompress(std::__ndk1::basic_istream<char, std::__ndk1::char_traits<char> >&, std::__ndk1::basic_ostream<char, std::__ndk1::char_traits<char> >&) const)
+
+ld: error: undefined symbol: zdl::DlSystem::RuntimeList::RuntimeList()
+>>> referenced by qcsnpe.cpp:24 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:24)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced by qcsnpe.cpp:96 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:96)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(Qcsnpe const&))
+
+ld: error: undefined symbol: zdl::DlSystem::TensorMap::TensorMap()
+>>> referenced by qcsnpe.cpp:24 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:24)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced by qcsnpe.cpp:96 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:96)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(Qcsnpe const&))
+
+ld: error: undefined symbol: zdl::SNPE::SNPEFactory::getLibraryVersion()
+>>> referenced by qcsnpe.cpp:39 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:39)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+
+ld: error: undefined symbol: zdl::DlSystem::Version_t::asString() const
+>>> referenced by qcsnpe.cpp:40 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:40)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+
+ld: error: undefined symbol: zdl::DlSystem::String::c_str() const
+>>> referenced by qcsnpe.cpp:40 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:40)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+
+ld: error: undefined symbol: zdl::DlSystem::String::~String()
+>>> referenced by qcsnpe.cpp:40 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:40)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced by qcsnpe.cpp:41 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:41)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced by qcsnpe.cpp:40 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:40)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced 1 more times
+
+ld: error: undefined symbol: zdl::DlSystem::String::String(char const*)
+>>> referenced by qcsnpe.cpp:41 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:41)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+
+ld: error: undefined symbol: zdl::DlContainer::IDlContainer::open(zdl::DlSystem::String const&)
+>>> referenced by qcsnpe.cpp:41 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:41)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+
+ld: error: undefined symbol: zdl::SNPE::SNPEFactory::isRuntimeAvailable(zdl::DlSystem::Runtime_t)
+>>> referenced by qcsnpe.cpp:47 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:47)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced by qcsnpe.cpp:53 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:53)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced by qcsnpe.cpp:59 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:59)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced 1 more times
+
+ld: error: undefined symbol: zdl::DlSystem::RuntimeList::add(zdl::DlSystem::Runtime_t const&)
+>>> referenced by qcsnpe.cpp:48 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:48)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced by qcsnpe.cpp:54 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:54)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced by qcsnpe.cpp:60 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:60)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+>>> referenced 2 more times
+
+ld: error: undefined symbol: zdl::DlSystem::RuntimeList::size() const
+>>> referenced by qcsnpe.cpp:76 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:76)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+
+ld: error: undefined symbol: zdl::SNPE::SNPEBuilder::SNPEBuilder(zdl::DlContainer::IDlContainer*)
+>>> referenced by qcsnpe.cpp:79 (/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/qcsnpe.cpp:79)
+>>>               CMakeFiles/onetry.dir/qcsnpe.cpp.o:(Qcsnpe::Qcsnpe(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&, std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, int))
+
+ld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

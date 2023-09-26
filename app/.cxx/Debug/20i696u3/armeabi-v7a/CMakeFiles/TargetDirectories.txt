@@ -1,0 +1,4 @@
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/Depth_Estimation/app/.cxx/Debug/20i696u3/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/Depth_Estimation/app/.cxx/Debug/20i696u3/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/Depth_Estimation/app/.cxx/Debug/20i696u3/armeabi-v7a/CMakeFiles/depthestimation.dir
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/Depth_Estimation/app/.cxx/Debug/20i696u3/armeabi-v7a/CMakeFiles/app_glue.dir

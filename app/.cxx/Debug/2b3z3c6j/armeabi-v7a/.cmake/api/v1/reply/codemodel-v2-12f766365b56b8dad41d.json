@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "facerecognition",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "app_glue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app_glue-Debug-59a9dc753c9e64991f6c.json",
+					"name" : "app_glue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "facerecognition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-facerecognition-Debug-c34a6a3e55b600053dd5.json",
+					"name" : "facerecognition",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2b3z3c6j/armeabi-v7a",
+		"source" : "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

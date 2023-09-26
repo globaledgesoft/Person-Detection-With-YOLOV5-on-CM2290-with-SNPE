@@ -1,0 +1,26 @@
+# ninja log v5
+0	670	660843669	CMakeFiles/onetry.dir/Image_Reader.cpp.o	659091d9bdce06df
+3	99	661025286	CMakeFiles/onetry.dir/Native_Camera.cpp.o	135c56bf5fcafc19
+3	462	661021071	CMakeFiles/onetry.dir/classify_key.cpp.o	308e52c48e885f89
+7	1564	660843670	CMakeFiles/onetry.dir/utils.cpp.o	4b3448f1281fb36
+4	1403	660933628	CMakeFiles/onetry.dir/native-lib.cpp.o	6b8ac075a4358650
+7	1740	661023176	CMakeFiles/onetry.dir/qcsnpe.cpp.o	90d7c35d722ffdfe
+3	1448	661027105	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1448	1773	661027105	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646
+4	1428	661027225	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1428	1752	661027226	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646
+3	1437	661027456	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1437	1750	661027457	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646
+3	1416	661027474	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1417	1737	661027475	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646
+3	1434	661027552	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1434	1749	661027553	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646
+3	1427	661027995	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1427	1734	661027995	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646
+4	1416	661028239	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1416	1728	661028239	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646
+7	103	661029251	CMakeFiles/onetry.dir/Native_Camera.cpp.o	135c56bf5fcafc19
+4	1489	661029252	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1489	1846	661029253	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646
+3	1443	661029669	CMakeFiles/onetry.dir/CameraApp.cpp.o	9270988a295a1d2b
+1443	1750	661029670	C:/Users/sbsba/Downloads/onetry/onetry/app/build/intermediates/cxx/Debug/40a6i4v4/obj/armeabi-v7a/libonetry.so	65fcf22916ca6646

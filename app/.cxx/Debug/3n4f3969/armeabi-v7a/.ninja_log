@@ -1,0 +1,23 @@
+# ninja log v5
+17	5297	1691049886	CMakeFiles/facerecognition.dir/qcsnpe.cpp.o	ff2e20c75fca6cd
+241	82770	1690549265	CMakeFiles/facerecognition.dir/utils.cpp.o	b38271871f16ed4d
+8975	12740	1691051049	/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/3n4f3969/obj/armeabi-v7a/libfacerecognition.so	5f77a8f823eaeea2
+1	1776	1690352420	CMakeFiles/facerecognition.dir/Native_Camera.cpp.o	328f563b35377c37
+22	1560	1690882007	CMakeFiles/facerecognition.dir/Image_Reader.cpp.o	a342a35ac87c42a3
+44	8967	1691051046	CMakeFiles/facerecognition.dir/native-lib.cpp.o	ae6f2bed4f55e323
+1777	5354	1690352424	CMakeFiles/facerecognition.dir/classify_key.cpp.o	bf2b8227a952b08
+50	8975	1691051046	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	774b0299f707db7c
+53	5180	1691054190	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	774b0299f707db7c
+5180	8831	1691054194	/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/3n4f3969/obj/armeabi-v7a/libfacerecognition.so	5f77a8f823eaeea2
+3	3631	1691054805	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	774b0299f707db7c
+3632	4477	1691054806	/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/3n4f3969/obj/armeabi-v7a/libfacerecognition.so	5f77a8f823eaeea2
+8	4219	1691055034	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	774b0299f707db7c
+4219	5077	1691055035	/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/3n4f3969/obj/armeabi-v7a/libfacerecognition.so	5f77a8f823eaeea2
+2	6674	1691056092	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	774b0299f707db7c
+6675	7979	1691056094	/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/3n4f3969/obj/armeabi-v7a/libfacerecognition.so	5f77a8f823eaeea2
+10	4605	1691056579	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	774b0299f707db7c
+4606	5427	1691056579	/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/3n4f3969/obj/armeabi-v7a/libfacerecognition.so	5f77a8f823eaeea2
+3	4084	1691056871	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	774b0299f707db7c
+4084	5040	1691056872	/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/3n4f3969/obj/armeabi-v7a/libfacerecognition.so	5f77a8f823eaeea2
+2	4531	1691057614	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	774b0299f707db7c
+4531	5500	1691057614	/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/3n4f3969/obj/armeabi-v7a/libfacerecognition.so	5f77a8f823eaeea2

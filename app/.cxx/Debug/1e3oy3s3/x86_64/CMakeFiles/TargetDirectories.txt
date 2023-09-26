@@ -1,0 +1,4 @@
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/1e3oy3s3/x86_64/CMakeFiles/rebuild_cache.dir
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/1e3oy3s3/x86_64/CMakeFiles/edit_cache.dir
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/1e3oy3s3/x86_64/CMakeFiles/onetry.dir
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/1e3oy3s3/x86_64/CMakeFiles/app_glue.dir

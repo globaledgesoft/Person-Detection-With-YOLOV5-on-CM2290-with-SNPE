@@ -1,0 +1,9 @@
+# ninja log v5
+14	101	1638470222	CMakeFiles/onetry.dir/Native_Camera.cpp.o	af33979fe9a795d8
+0	981	1638470259	CMakeFiles/onetry.dir/Image_Reader.cpp.o	aa46b40d994991df
+1	1068	1638470425	CMakeFiles/onetry.dir/native-lib.cpp.o	a4466b01a1a1c158
+3	896	1638470575	CMakeFiles/onetry.dir/CameraApp.cpp.o	a7dddf147e625231
+1	919	1638470575	CMakeFiles/onetry.dir/native-lib.cpp.o	a4466b01a1a1c158
+919	1163	1638470575	/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/4yo2r6o4/obj/armeabi-v7a/libonetry.so	be2713e54f1aae91
+1	848	1638471513	CMakeFiles/onetry.dir/native-lib.cpp.o	a4466b01a1a1c158
+848	996	1638471513	/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/4yo2r6o4/obj/armeabi-v7a/libonetry.so	be2713e54f1aae91

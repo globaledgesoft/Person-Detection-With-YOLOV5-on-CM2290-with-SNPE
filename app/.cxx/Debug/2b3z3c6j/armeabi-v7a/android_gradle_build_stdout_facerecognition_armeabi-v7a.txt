@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2b3z3c6j/armeabi-v7a'
+ninja: no work to do.

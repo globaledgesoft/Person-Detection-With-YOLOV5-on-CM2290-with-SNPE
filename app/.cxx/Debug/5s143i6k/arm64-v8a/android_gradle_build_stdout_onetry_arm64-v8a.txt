@@ -1,0 +1,275 @@
+ninja: Entering directory `/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/5s143i6k/arm64-v8a'
+[1/5] Building CXX object CMakeFiles/onetry.dir/Native_Camera.cpp.o
+FAILED: CMakeFiles/onetry.dir/Native_Camera.cpp.o 
+/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/onetry.dir/Native_Camera.cpp.o -MF CMakeFiles/onetry.dir/Native_Camera.cpp.o.d -o CMakeFiles/onetry.dir/Native_Camera.cpp.o -c /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp
+In file included from /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp:1:
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:14:55: error: unknown type name 'ACameraDevice'
+static void CameraDeviceOnDisconnected(void* context, ACameraDevice* device) {
+                                                      ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:17:48: error: unknown type name 'ACameraDevice'
+static void CameraDeviceOnError(void* context, ACameraDevice* device,
+                                               ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:24:35: error: unknown type name 'ACameraCaptureSession'
+                                  ACameraCaptureSession* session) {
+                                  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:28:36: error: unknown type name 'ACameraCaptureSession'
+                                   ACameraCaptureSession* session) {
+                                   ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:51:3: error: unknown type name 'ACameraDevice'
+  ACameraDevice* m_camera_device;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:52:3: error: unknown type name 'ACaptureRequest'
+  ACaptureRequest* m_capture_request;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:53:3: error: unknown type name 'ACameraOutputTarget'
+  ACameraOutputTarget* m_camera_output_target;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:54:3: error: unknown type name 'ACaptureSessionOutput'
+  ACaptureSessionOutput* m_session_output;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:55:3: error: unknown type name 'ACaptureSessionOutputContainer'
+  ACaptureSessionOutputContainer* m_capture_session_output_container;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:56:3: error: unknown type name 'ACameraCaptureSession'
+  ACameraCaptureSession* m_capture_session;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:58:3: error: unknown type name 'ACameraDevice_StateCallbacks'
+  ACameraDevice_StateCallbacks m_device_state_callbacks;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:59:3: error: unknown type name 'ACameraCaptureSession_stateCallbacks'
+  ACameraCaptureSession_stateCallbacks m_capture_session_state_callbacks;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:61:3: error: unknown type name 'ACameraManager'
+  ACameraManager* m_camera_manager;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:63:3: error: unknown type name 'ACameraIdList'
+  ACameraIdList* m_camera_id_list = NULL;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp:5:3: error: unknown type name 'ACameraMetadata'
+  ACameraMetadata* cameraMetadata = nullptr;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp:6:3: error: unknown type name 'camera_status_t'; did you mean 'media_status_t'?
+  camera_status_t cameraStatus = ACAMERA_OK;
+  ^~~~~~~~~~~~~~~
+  media_status_t
+/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/media/NdkMediaError.h:86:3: note: 'media_status_t' declared here
+} media_status_t;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp:6:34: error: use of undeclared identifier 'ACAMERA_OK'; did you mean 'AMEDIA_OK'?
+  camera_status_t cameraStatus = ACAMERA_OK;
+                                 ^~~~~~~~~~
+                                 AMEDIA_OK
+/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/media/NdkMediaError.h:44:5: note: 'AMEDIA_OK' declared here
+    AMEDIA_OK = 0,
+    ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp:8:22: error: use of undeclared identifier 'ACameraManager_create'
+  m_camera_manager = ACameraManager_create();
+                     ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp:12:26: error: use of undeclared identifier 'ACAMERA_OK'; did you mean 'AMEDIA_OK'?
+  ASSERT(cameraStatus == ACAMERA_OK,
+                         ^~~~~~~~~~
+                         AMEDIA_OK
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Util.h:17:9: note: expanded from macro 'ASSERT'
+  if (!(cond)) {                                              \
+        ^
+/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/media/NdkMediaError.h:44:5: note: 'AMEDIA_OK' declared here
+    AMEDIA_OK = 0,
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[2/5] Building CXX object CMakeFiles/onetry.dir/Image_Reader.cpp.o
+FAILED: CMakeFiles/onetry.dir/Image_Reader.cpp.o 
+/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/onetry.dir/Image_Reader.cpp.o -MF CMakeFiles/onetry.dir/Image_Reader.cpp.o.d -o CMakeFiles/onetry.dir/Image_Reader.cpp.o -c /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:50:27: error: use of undeclared identifier 'AImageReader_new'
+  media_status_t status = AImageReader_new(res->width, res->height, format,
+                          ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:54:3: error: unknown type name 'AImageReader_ImageListener'
+  AImageReader_ImageListener listener{
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:68:3: error: use of undeclared identifier 'AImageReader_delete'
+  AImageReader_delete(reader_);
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:77:27: error: use of undeclared identifier 'AImageReader_getFormat'
+  media_status_t status = AImageReader_getFormat(reader, &format);
+                          ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:82:29: error: use of undeclared identifier 'AImageReader_acquireNextImage'
+    media_status_t status = AImageReader_acquireNextImage(reader, &image);
+                            ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:86:14: error: use of undeclared identifier 'AImage_getNumberOfPlanes'
+    status = AImage_getNumberOfPlanes(image, &planeCount);
+             ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:91:5: error: use of undeclared identifier 'AImage_getPlaneData'
+    AImage_getPlaneData(image, 0, &data, &len);
+    ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:93:5: error: use of undeclared identifier 'AImage_delete'
+    AImage_delete(image);
+    ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:100:27: error: use of undeclared identifier 'AImageReader_getWindow'
+  media_status_t status = AImageReader_getWindow(reader_, &nativeWindow);
+                          ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:115:27: error: use of undeclared identifier 'AImageReader_acquireNextImage'
+  media_status_t status = AImageReader_acquireNextImage(reader_, &image);
+                          ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:128:27: error: use of undeclared identifier 'AImageReader_acquireLatestImage'
+  media_status_t status = AImageReader_acquireLatestImage(reader_, &image);
+                          ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:141:27: error: use of undeclared identifier 'AImageReader_getMaxImages'
+  media_status_t status = AImageReader_getMaxImages(reader_, &image_count);
+                          ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:154:5: error: use of undeclared identifier 'AImage_delete'
+    AImage_delete(image);
+    ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:228:3: error: use of undeclared identifier 'AImage_getFormat'; did you mean 'ImageFormat'?
+  AImage_getFormat(image, &srcFormat);
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Util.h:22:8: note: 'ImageFormat' declared here
+struct ImageFormat {
+       ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:231:3: error: use of undeclared identifier 'AImage_getNumberOfPlanes'
+  AImage_getNumberOfPlanes(image, &srcPlanes);
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:251:3: error: use of undeclared identifier 'AImage_delete'
+  AImage_delete(image);
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:266:3: error: use of undeclared identifier 'AImage_getCropRect'
+  AImage_getCropRect(image, &srcRect);
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:268:3: error: use of undeclared identifier 'AImage_getPlaneRowStride'
+  AImage_getPlaneRowStride(image, 0, &yStride);
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp:269:3: error: use of undeclared identifier 'AImage_getPlaneRowStride'
+  AImage_getPlaneRowStride(image, 1, &uvStride);
+  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[3/5] Building CXX object CMakeFiles/onetry.dir/native-lib.cpp.o
+FAILED: CMakeFiles/onetry.dir/native-lib.cpp.o 
+/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/onetry.dir/native-lib.cpp.o -MF CMakeFiles/onetry.dir/native-lib.cpp.o.d -o CMakeFiles/onetry.dir/native-lib.cpp.o -c /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/native-lib.cpp
+In file included from /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/native-lib.cpp:6:
+In file included from /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.h:19:
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:14:55: error: unknown type name 'ACameraDevice'
+static void CameraDeviceOnDisconnected(void* context, ACameraDevice* device) {
+                                                      ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:17:48: error: unknown type name 'ACameraDevice'
+static void CameraDeviceOnError(void* context, ACameraDevice* device,
+                                               ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:24:35: error: unknown type name 'ACameraCaptureSession'
+                                  ACameraCaptureSession* session) {
+                                  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:28:36: error: unknown type name 'ACameraCaptureSession'
+                                   ACameraCaptureSession* session) {
+                                   ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:51:3: error: unknown type name 'ACameraDevice'
+  ACameraDevice* m_camera_device;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:52:3: error: unknown type name 'ACaptureRequest'
+  ACaptureRequest* m_capture_request;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:53:3: error: unknown type name 'ACameraOutputTarget'
+  ACameraOutputTarget* m_camera_output_target;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:54:3: error: unknown type name 'ACaptureSessionOutput'
+  ACaptureSessionOutput* m_session_output;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:55:3: error: unknown type name 'ACaptureSessionOutputContainer'
+  ACaptureSessionOutputContainer* m_capture_session_output_container;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:56:3: error: unknown type name 'ACameraCaptureSession'
+  ACameraCaptureSession* m_capture_session;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:58:3: error: unknown type name 'ACameraDevice_StateCallbacks'
+  ACameraDevice_StateCallbacks m_device_state_callbacks;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:59:3: error: unknown type name 'ACameraCaptureSession_stateCallbacks'
+  ACameraCaptureSession_stateCallbacks m_capture_session_state_callbacks;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:61:3: error: unknown type name 'ACameraManager'
+  ACameraManager* m_camera_manager;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:63:3: error: unknown type name 'ACameraIdList'
+  ACameraIdList* m_camera_id_list = NULL;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/native-lib.cpp:17:12: error: use of undeclared identifier 'JNI'
+    return JNI;
+           ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/native-lib.cpp:33:9: error: no member named 'setNativeWindow' in 'CameraApp'; did you mean 'SetNativeWindow'?
+    app.setNativeWindow(ANativeWindow_fromSurface(env, surface));
+        ^~~~~~~~~~~~~~~
+        SetNativeWindow
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.h:43:10: note: 'SetNativeWindow' declared here
+    void SetNativeWindow(ANativeWindow* native_indow);
+         ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/native-lib.cpp:34:9: error: no member named 'SetupCamera' in 'CameraApp'; did you mean 'SetUpCamera'?
+    app.SetupCamera();
+        ^~~~~~~~~~~
+        SetUpCamera
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.h:48:10: note: 'SetUpCamera' declared here
+    void SetUpCamera();
+         ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/native-lib.cpp:35:29: error: use of undeclared identifier 'CV_Main'
+    std::thread loopThread(&CV_Main::CameraLoop, &app);
+                            ^
+18 errors generated.
+[4/5] Building CXX object CMakeFiles/onetry.dir/CameraApp.cpp.o
+FAILED: CMakeFiles/onetry.dir/CameraApp.cpp.o 
+/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/onetry.dir/CameraApp.cpp.o -MF CMakeFiles/onetry.dir/CameraApp.cpp.o.d -o CMakeFiles/onetry.dir/CameraApp.cpp.o -c /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.cpp
+In file included from /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.cpp:4:
+In file included from /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.h:19:
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:14:55: error: unknown type name 'ACameraDevice'
+static void CameraDeviceOnDisconnected(void* context, ACameraDevice* device) {
+                                                      ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:17:48: error: unknown type name 'ACameraDevice'
+static void CameraDeviceOnError(void* context, ACameraDevice* device,
+                                               ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:24:35: error: unknown type name 'ACameraCaptureSession'
+                                  ACameraCaptureSession* session) {
+                                  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:28:36: error: unknown type name 'ACameraCaptureSession'
+                                   ACameraCaptureSession* session) {
+                                   ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:51:3: error: unknown type name 'ACameraDevice'
+  ACameraDevice* m_camera_device;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:52:3: error: unknown type name 'ACaptureRequest'
+  ACaptureRequest* m_capture_request;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:53:3: error: unknown type name 'ACameraOutputTarget'
+  ACameraOutputTarget* m_camera_output_target;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:54:3: error: unknown type name 'ACaptureSessionOutput'
+  ACaptureSessionOutput* m_session_output;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:55:3: error: unknown type name 'ACaptureSessionOutputContainer'
+  ACaptureSessionOutputContainer* m_capture_session_output_container;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:56:3: error: unknown type name 'ACameraCaptureSession'
+  ACameraCaptureSession* m_capture_session;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:58:3: error: unknown type name 'ACameraDevice_StateCallbacks'
+  ACameraDevice_StateCallbacks m_device_state_callbacks;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:59:3: error: unknown type name 'ACameraCaptureSession_stateCallbacks'
+  ACameraCaptureSession_stateCallbacks m_capture_session_state_callbacks;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:61:3: error: unknown type name 'ACameraManager'
+  ACameraManager* m_camera_manager;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.h:63:3: error: unknown type name 'ACameraIdList'
+  ACameraIdList* m_camera_id_list = NULL;
+  ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.cpp:6:21: error: unexpected ':' in nested name specifier; did you mean '::'?
+CameraApp::CameraApp:m_camera_ready(false), m_image(nullptr), m_image_reader(nullptr), m_native_camera(nullptr) {}
+                    ^
+                    ::
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.cpp:6:22: error: C++ requires a type specifier for all declarations
+CameraApp::CameraApp:m_camera_ready(false), m_image(nullptr), m_image_reader(nullptr), m_native_camera(nullptr) {}
+                     ^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.cpp:6:22: error: non-static data member defined out-of-line
+CameraApp::CameraApp:m_camera_ready(false), m_image(nullptr), m_image_reader(nullptr), m_native_camera(nullptr) {}
+~~~~~~~~~~~~~~~~~~~~~^
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.cpp:6:53: error: expected ';' after top level declarator
+CameraApp::CameraApp:m_camera_ready(false), m_image(nullptr), m_image_reader(nullptr), m_native_camera(nullptr) {}
+                                                    ^
+                                                    ;
+18 errors generated.
+ninja: build stopped: subcommand failed.

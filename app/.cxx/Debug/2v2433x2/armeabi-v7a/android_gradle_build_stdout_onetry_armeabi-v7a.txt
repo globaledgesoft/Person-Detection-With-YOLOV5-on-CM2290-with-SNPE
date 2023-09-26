@@ -1,0 +1,33 @@
+ninja: Entering directory `/home/sachin/office_work/onetry/onetry/app/.cxx/Debug/2v2433x2/armeabi-v7a'
+[1/8] Building CXX object CMakeFiles/onetry.dir/Native_Camera.cpp.o
+[2/8] Building CXX object CMakeFiles/onetry.dir/classify_key.cpp.o
+[3/8] Building CXX object CMakeFiles/onetry.dir/Image_Reader.cpp.o
+[4/8] Building CXX object CMakeFiles/onetry.dir/utils.cpp.o
+[5/8] Building CXX object CMakeFiles/onetry.dir/qcsnpe.cpp.o
+[6/8] Building CXX object CMakeFiles/onetry.dir/CameraApp.cpp.o
+FAILED: CMakeFiles/onetry.dir/CameraApp.cpp.o 
+/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/17.2.4988734/sources/android/native_app_glue -I/home/sachin/Downloads/SNPE_libs/include/zdl -I/home/sachin/office_work/softwares/dlib-19.22 -I/home/sachin/office_work/onetry/onetry/app/src/main/cpp/../jniLibs -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/android/support/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++abi/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -std=gnu++11 -MD -MT CMakeFiles/onetry.dir/CameraApp.cpp.o -MF CMakeFiles/onetry.dir/CameraApp.cpp.o.d -o CMakeFiles/onetry.dir/CameraApp.cpp.o -c /home/sachin/office_work/onetry/onetry/app/src/main/cpp/CameraApp.cpp
+In file included from /home/sachin/office_work/onetry/onetry/app/src/main/cpp/CameraApp.cpp:4:
+In file included from /home/sachin/office_work/onetry/onetry/app/src/main/cpp/CameraApp.h:32:
+In file included from /home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/frontal_face_detector.h:7:
+In file included from /home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../image_processing/object_detector.h:7:
+In file included from /home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../geometry.h:6:
+In file included from /home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../geometry/rectangle.h:10:
+/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../vectorstream/../serialize.h:2512:25: error: comparison 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::size_type' (aka 'unsigned int') > 4294967295 is always false [-Werror,-Wtautological-constant-compare]
+        if (temp.size() > std::numeric_limits<uint32>::max())
+            ~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[7/8] Building CXX object CMakeFiles/onetry.dir/native-lib.cpp.o
+FAILED: CMakeFiles/onetry.dir/native-lib.cpp.o 
+/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/17.2.4988734/sources/android/native_app_glue -I/home/sachin/Downloads/SNPE_libs/include/zdl -I/home/sachin/office_work/softwares/dlib-19.22 -I/home/sachin/office_work/onetry/onetry/app/src/main/cpp/../jniLibs -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/android/support/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++abi/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -std=gnu++11 -MD -MT CMakeFiles/onetry.dir/native-lib.cpp.o -MF CMakeFiles/onetry.dir/native-lib.cpp.o.d -o CMakeFiles/onetry.dir/native-lib.cpp.o -c /home/sachin/office_work/onetry/onetry/app/src/main/cpp/native-lib.cpp
+In file included from /home/sachin/office_work/onetry/onetry/app/src/main/cpp/native-lib.cpp:6:
+In file included from /home/sachin/office_work/onetry/onetry/app/src/main/cpp/CameraApp.h:32:
+In file included from /home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/frontal_face_detector.h:7:
+In file included from /home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../image_processing/object_detector.h:7:
+In file included from /home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../geometry.h:6:
+In file included from /home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../geometry/rectangle.h:10:
+/home/sachin/office_work/softwares/dlib-19.22/dlib/image_processing/../vectorstream/../serialize.h:2512:25: error: comparison 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::size_type' (aka 'unsigned int') > 4294967295 is always false [-Werror,-Wtautological-constant-compare]
+        if (temp.size() > std::numeric_limits<uint32>::max())
+            ~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

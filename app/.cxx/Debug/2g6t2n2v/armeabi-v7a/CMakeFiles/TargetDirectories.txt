@@ -1,0 +1,4 @@
+/home/ank/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2g6t2n2v/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/ank/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2g6t2n2v/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/ank/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2g6t2n2v/armeabi-v7a/CMakeFiles/facerecognition.dir
+/home/ank/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2g6t2n2v/armeabi-v7a/CMakeFiles/app_glue.dir

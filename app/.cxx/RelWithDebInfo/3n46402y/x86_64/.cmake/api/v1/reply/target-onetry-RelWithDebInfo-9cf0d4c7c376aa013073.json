@@ -1,0 +1,385 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/RelWithDebInfo/3n46402y/obj/x86_64/libonetry.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O2 -g -DNDEBUG -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "onetry_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "onetry::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  -u ANativeActivity_onCreate",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lcamera2ndk",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lmediandk",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/24/liblog.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_calib3d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_dnn.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_features2d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_flann.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_gapi.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_highgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_imgcodecs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_imgproc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_ml.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_objdetect.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_photo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_stitching.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_video.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_videoio.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libade.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_imgcodecs.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibjpeg-turbo.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibwebp.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibpng.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibtiff.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibopenjp2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libIlmImf.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-landroid -llog -lmediandk",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_dnn.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/liblibprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libquirc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_calib3d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_features2d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_flann.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_imgproc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/staticlibs/x86_64/libopencv_core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libtbb.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libcpufeatures.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libittnotify.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libippiw.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/3rdparty/libs/x86_64/libippicv.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "onetry",
+	"nameOnDisk" : "libonetry.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "native-lib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Image_Reader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "CameraApp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Native_Camera.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

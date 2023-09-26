@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/ank/Downloads/depth_final/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2g6t2n2v/armeabi-v7a'
+ninja: no work to do.

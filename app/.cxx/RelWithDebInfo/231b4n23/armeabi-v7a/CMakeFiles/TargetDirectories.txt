@@ -1,0 +1,4 @@
+/home/sachin/office_work/onetry_demo_2/onetry/onetry/app/.cxx/RelWithDebInfo/231b4n23/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/sachin/office_work/onetry_demo_2/onetry/onetry/app/.cxx/RelWithDebInfo/231b4n23/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/sachin/office_work/onetry_demo_2/onetry/onetry/app/.cxx/RelWithDebInfo/231b4n23/armeabi-v7a/CMakeFiles/onetry.dir
+/home/sachin/office_work/onetry_demo_2/onetry/onetry/app/.cxx/RelWithDebInfo/231b4n23/armeabi-v7a/CMakeFiles/app_glue.dir

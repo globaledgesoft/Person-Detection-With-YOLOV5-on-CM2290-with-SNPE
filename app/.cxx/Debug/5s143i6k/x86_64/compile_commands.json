@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/5s143i6k/x86_64",
+  "command": "/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/onetry.dir/native-lib.cpp.o -c /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/native-lib.cpp"
+},
+{
+  "directory": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/5s143i6k/x86_64",
+  "command": "/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/onetry.dir/Image_Reader.cpp.o -c /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp",
+  "file": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Image_Reader.cpp"
+},
+{
+  "directory": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/5s143i6k/x86_64",
+  "command": "/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/onetry.dir/CameraApp.cpp.o -c /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.cpp",
+  "file": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/CameraApp.cpp"
+},
+{
+  "directory": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/5s143i6k/x86_64",
+  "command": "/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -isystem /home/sachin/office_work/conscope/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++11 -Werror  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/onetry.dir/Native_Camera.cpp.o -c /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp",
+  "file": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/src/main/cpp/Native_Camera.cpp"
+},
+{
+  "directory": "/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/5s143i6k/x86_64",
+  "command": "/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=x86_64-none-linux-android21 --gcc-toolchain=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles/app_glue.dir/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue/android_native_app_glue.c.o -c /home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue/android_native_app_glue.c",
+  "file": "/home/sachin/Android/Sdk/ndk/21.4.7075529/sources/android/native_app_glue/android_native_app_glue.c"
+}
+]

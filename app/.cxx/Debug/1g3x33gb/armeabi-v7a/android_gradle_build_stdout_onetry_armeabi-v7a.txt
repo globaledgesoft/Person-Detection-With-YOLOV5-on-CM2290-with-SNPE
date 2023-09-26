@@ -1,0 +1,9 @@
+ninja: Entering directory `/home/sachin/office_work/onetry_demo_2/onetry/onetry/app/.cxx/Debug/1g3x33gb/armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/onetry.dir/CameraApp.cpp.o
+FAILED: CMakeFiles/onetry.dir/CameraApp.cpp.o 
+/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot -Donetry_EXPORTS -I/home/sachin/Android/Sdk/ndk/17.2.4988734/sources/android/native_app_glue -I/home/sachin/Downloads/SNPE_libs/include/zdl -isystem /home/sachin/office_work/commscope/OpenCV-android-sdk/sdk/native/jni/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/android/support/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++abi/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -std=c++11 -Werror -O0 -fno-limit-debug-info  -fPIC -std=gnu++11 -MD -MT CMakeFiles/onetry.dir/CameraApp.cpp.o -MF CMakeFiles/onetry.dir/CameraApp.cpp.o.d -o CMakeFiles/onetry.dir/CameraApp.cpp.o -c /home/sachin/office_work/onetry_demo_2/onetry/onetry/app/src/main/cpp/CameraApp.cpp
+/home/sachin/office_work/onetry_demo_2/onetry/onetry/app/src/main/cpp/CameraApp.cpp:11:10: fatal error: 'filesystem' file not found
+#include <filesystem>
+         ^~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

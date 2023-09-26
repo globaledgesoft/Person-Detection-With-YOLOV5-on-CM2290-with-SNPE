@@ -1,0 +1,53 @@
+{
+  "buildFiles": [
+    "/home/sahil/Downloads/depth_final/Depth_Estimation/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/sahil/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/sahil/Downloads/depth_final/Depth_Estimation/app/.cxx/Debug/35g4t5h4/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/sahil/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/sahil/Downloads/depth_final/Depth_Estimation/app/.cxx/Debug/35g4t5h4/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "app_glue::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "app_glue",
+      "output": "/home/sahil/Downloads/depth_final/Depth_Estimation/app/.cxx/Debug/35g4t5h4/armeabi-v7a/libapp_glue.a"
+    },
+    "depthestimation::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "depthestimation",
+      "output": "/home/sahil/Downloads/depth_final/Depth_Estimation/app/build/intermediates/cxx/Debug/35g4t5h4/obj/armeabi-v7a/libdepthestimation.so",
+      "runtimeFiles": [
+        "/home/sahil/Downloads/depth_final/Depth_Estimation/app/src/main/jniLibs/armeabi-v7a/libSNPE.so",
+        "/home/sahil/Downloads/depth_final/Depth_Estimation/app/src/main/jniLibs/armeabi-v7a/libc++_shared.so",
+        "/home/sahil/Downloads/depth_final/Depth_Estimation/app/src/main/jniLibs/armeabi-v7a/libcalculator.so",
+        "/home/sahil/Downloads/depth_final/Depth_Estimation/app/src/main/jniLibs/armeabi-v7a/libPlatformValidatorShared.so",
+        "/home/sahil/Downloads/depth_final/Depth_Estimation/app/src/main/jniLibs/armeabi-v7a/libsnpe_dsp_domains_v2.so",
+        "/home/sahil/Android/Sdk/ndk/17.2.4988734/platforms/android-24/arch-arm/usr/lib/liblog.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/sahil/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/sahil/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

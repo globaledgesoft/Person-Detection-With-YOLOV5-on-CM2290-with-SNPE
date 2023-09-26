@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/1e3oy3s3/x86_64'
+ninja: no work to do.

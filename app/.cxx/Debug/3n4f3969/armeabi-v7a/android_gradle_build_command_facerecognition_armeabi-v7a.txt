@@ -1,0 +1,7 @@
+Executable : /home/sahil/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/sahil/android-studio-2021.3.1.17-linux/count/Face_recognition_cleaned_and_ready/app/.cxx/Debug/3n4f3969/armeabi-v7a
+facerecognition
+jvmArgs : 
+

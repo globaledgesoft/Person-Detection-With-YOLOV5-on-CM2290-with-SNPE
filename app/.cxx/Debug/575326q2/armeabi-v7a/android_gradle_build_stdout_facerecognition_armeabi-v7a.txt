@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/sachin/office_work/onetry_demo_2/onetry/Face_recognition_cleaned_and_ready/app/.cxx/Debug/575326q2/armeabi-v7a'
+ninja: no work to do.

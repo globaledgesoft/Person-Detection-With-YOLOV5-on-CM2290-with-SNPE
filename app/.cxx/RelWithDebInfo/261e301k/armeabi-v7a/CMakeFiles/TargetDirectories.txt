@@ -1,0 +1,4 @@
+/home/krishnapriya/Desktop/Office_work/Andriod_studio/Depth_Estimation/app/.cxx/RelWithDebInfo/261e301k/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/krishnapriya/Desktop/Office_work/Andriod_studio/Depth_Estimation/app/.cxx/RelWithDebInfo/261e301k/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/krishnapriya/Desktop/Office_work/Andriod_studio/Depth_Estimation/app/.cxx/RelWithDebInfo/261e301k/armeabi-v7a/CMakeFiles/depthestimation.dir
+/home/krishnapriya/Desktop/Office_work/Andriod_studio/Depth_Estimation/app/.cxx/RelWithDebInfo/261e301k/armeabi-v7a/CMakeFiles/app_glue.dir

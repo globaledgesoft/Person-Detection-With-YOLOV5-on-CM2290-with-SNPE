@@ -1,0 +1,9 @@
+# ninja log v5
+1	121	1672060873	CMakeFiles/facerecognition.dir/Native_Camera.cpp.o	3c87f2c0d674738c
+1	1120	1672060874	CMakeFiles/facerecognition.dir/classify_key.cpp.o	9996a2ff1cd85509
+1	1508	1672060874	CMakeFiles/facerecognition.dir/Image_Reader.cpp.o	f4d55d7c6b32e063
+1	2626	1672060875	CMakeFiles/facerecognition.dir/utils.cpp.o	2f5a7731f8810532
+1	3122	1672060876	CMakeFiles/facerecognition.dir/qcsnpe.cpp.o	5cbb04656c0a139
+0	3346	1672060876	CMakeFiles/facerecognition.dir/native-lib.cpp.o	dc66b01f92924b34
+1	3372	1672060876	CMakeFiles/facerecognition.dir/CameraApp.cpp.o	e0c71fe5ff3e7bb6
+3372	3640	1672060876	/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/2b3z3c6j/obj/armeabi-v7a/libfacerecognition.so	e19af2f8569a62ad

@@ -1,0 +1,4 @@
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/persondetection/app/.cxx/Debug/1h4u3316/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/persondetection/app/.cxx/Debug/1h4u3316/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/persondetection/app/.cxx/Debug/1h4u3316/armeabi-v7a/CMakeFiles/persondetection.dir
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/persondetection/app/.cxx/Debug/1h4u3316/armeabi-v7a/CMakeFiles/app_glue.dir

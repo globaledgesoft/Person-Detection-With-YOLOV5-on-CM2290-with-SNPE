@@ -1,0 +1,7 @@
+Executable : C:\Users\sbsba\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\sbsba\Downloads\onetry\onetry\app\.cxx\Debug\40a6i4v4\armeabi-v7a
+onetry
+jvmArgs : 
+

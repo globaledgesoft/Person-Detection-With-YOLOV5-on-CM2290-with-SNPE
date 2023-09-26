@@ -1,0 +1,53 @@
+{
+  "buildFiles": [
+    "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/avi/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2b3z3c6j/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/avi/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2b3z3c6j/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "app_glue::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "app_glue",
+      "output": "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/.cxx/Debug/2b3z3c6j/armeabi-v7a/libapp_glue.a"
+    },
+    "facerecognition::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "facerecognition",
+      "output": "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/build/intermediates/cxx/Debug/2b3z3c6j/obj/armeabi-v7a/libfacerecognition.so",
+      "runtimeFiles": [
+        "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/src/main/jniLibs/armeabi-v7a/libSNPE.so",
+        "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/src/main/jniLibs/armeabi-v7a/libc++_shared.so",
+        "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/src/main/jniLibs/armeabi-v7a/libcalculator.so",
+        "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/src/main/jniLibs/armeabi-v7a/libPlatformValidatorShared.so",
+        "/home/avi/Downloads/cm22/Project_2/count/Face_recognition_cleaned_and_ready/app/src/main/jniLibs/armeabi-v7a/libsnpe_dsp_domains_v2.so",
+        "/home/avi/Android/Sdk/ndk/17.2.4988734/platforms/android-24/arch-arm/usr/lib/liblog.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/avi/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/avi/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

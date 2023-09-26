@@ -1,0 +1,4 @@
+/home/sachin/office_work/QDN/Face_recognition_cleaned_and_ready/app/.cxx/Debug/446bs1r2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/sachin/office_work/QDN/Face_recognition_cleaned_and_ready/app/.cxx/Debug/446bs1r2/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/sachin/office_work/QDN/Face_recognition_cleaned_and_ready/app/.cxx/Debug/446bs1r2/armeabi-v7a/CMakeFiles/facerecognition.dir
+/home/sachin/office_work/QDN/Face_recognition_cleaned_and_ready/app/.cxx/Debug/446bs1r2/armeabi-v7a/CMakeFiles/app_glue.dir

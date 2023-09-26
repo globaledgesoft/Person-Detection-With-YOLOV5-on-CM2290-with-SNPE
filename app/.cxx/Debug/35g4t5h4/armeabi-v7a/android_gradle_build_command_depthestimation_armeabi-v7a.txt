@@ -1,0 +1,7 @@
+Executable : /home/sahil/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/sahil/Downloads/depth_final/Depth_Estimation/app/.cxx/Debug/35g4t5h4/armeabi-v7a
+depthestimation
+jvmArgs : 
+

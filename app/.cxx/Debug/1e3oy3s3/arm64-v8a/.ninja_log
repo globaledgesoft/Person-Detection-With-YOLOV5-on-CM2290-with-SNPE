@@ -1,0 +1,25 @@
+# ninja log v5
+2	94	1638471663	CMakeFiles/onetry.dir/Native_Camera.cpp.o	1cf809d4ba1f5bf5
+1	810	1638471663	CMakeFiles/onetry.dir/Image_Reader.cpp.o	6a0fa022cd14de52
+2	878	1638471663	CMakeFiles/onetry.dir/CameraApp.cpp.o	c108737062e0c3a0
+0	935	1638471663	CMakeFiles/onetry.dir/native-lib.cpp.o	812f73ae99b6263c
+935	1042	1638471664	/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/1e3oy3s3/obj/arm64-v8a/libonetry.so	218123d59c6cedb8
+1	834	1638473612	CMakeFiles/onetry.dir/native-lib.cpp.o	812f73ae99b6263c
+834	883	1638473612	/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/1e3oy3s3/obj/arm64-v8a/libonetry.so	218123d59c6cedb8
+0	829	1638474758	CMakeFiles/onetry.dir/CameraApp.cpp.o	c108737062e0c3a0
+829	923	1638474758	/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/1e3oy3s3/obj/arm64-v8a/libonetry.so	218123d59c6cedb8
+3	867	1638474870	CMakeFiles/onetry.dir/CameraApp.cpp.o	c108737062e0c3a0
+2	906	1638474871	CMakeFiles/onetry.dir/native-lib.cpp.o	812f73ae99b6263c
+0	69	1638474902	/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/1e3oy3s3/obj/arm64-v8a/libonetry.so	308611f6de66ee6
+0	56	1638475247	/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/1e3oy3s3/obj/arm64-v8a/libonetry.so	7e71282dafc323c1
+2	88	1638475509	CMakeFiles/onetry.dir/Native_Camera.cpp.o	ef3f25c805549ab3
+1	1043	1638475510	CMakeFiles/onetry.dir/CameraApp.cpp.o	3f6a489af26fadef
+0	1091	1638475510	CMakeFiles/onetry.dir/native-lib.cpp.o	387f177d27fb36c
+1	1307	1638475510	CMakeFiles/onetry.dir/Image_Reader.cpp.o	ead677b3b326a986
+2	2331	1638475511	CMakeFiles/onetry.dir/utils.cpp.o	a17ac2382af1dc12
+56	367	1638859560	CMakeFiles/onetry.dir/Native_Camera.cpp.o	b2fb20cb1210393d
+26	2275	1638859562	CMakeFiles/onetry.dir/Image_Reader.cpp.o	d54d6e1cde0719e2
+88	5216	1638859565	CMakeFiles/onetry.dir/utils.cpp.o	cbaa3e8e7b570d0c
+69	5748	1638859566	CMakeFiles/onetry.dir/qcsnpe.cpp.o	2339c7d6bfd6d816
+2	13635	1638859574	CMakeFiles/onetry.dir/native-lib.cpp.o	3e2a5e084fba9048
+4	10199	1638859602	CMakeFiles/onetry.dir/CameraApp.cpp.o	b5ebee753faa0853

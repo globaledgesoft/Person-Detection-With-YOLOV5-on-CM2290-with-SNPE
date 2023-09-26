@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/5l5s1z4q/armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/onetry.dir/CameraApp.cpp.o
+[2/2] Linking CXX shared library /home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/build/intermediates/cxx/Debug/5l5s1z4q/obj/armeabi-v7a/libonetry.so

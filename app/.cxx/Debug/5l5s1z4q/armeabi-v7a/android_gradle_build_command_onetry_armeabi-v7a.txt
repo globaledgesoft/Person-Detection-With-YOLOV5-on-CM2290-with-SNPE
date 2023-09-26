@@ -1,0 +1,7 @@
+Executable : /home/sachin/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/sachin/office_work/conscope/ndk-samples/camera/onetry/app/.cxx/Debug/5l5s1z4q/armeabi-v7a
+onetry
+jvmArgs : 
+

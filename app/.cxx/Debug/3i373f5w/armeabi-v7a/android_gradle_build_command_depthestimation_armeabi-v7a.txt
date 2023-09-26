@@ -1,0 +1,7 @@
+Executable : /home/krishnapriya/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/krishnapriya/Desktop/Office_work/Andriod_studio/Depth_Estimation/app/.cxx/Debug/3i373f5w/armeabi-v7a
+depthestimation
+jvmArgs : 
+

@@ -1,0 +1,4 @@
+/home/avi/Downloads/cm22/Project_2/Face_recognition_cleaned_and_ready/app/.cxx/Debug/6y736f3j/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/avi/Downloads/cm22/Project_2/Face_recognition_cleaned_and_ready/app/.cxx/Debug/6y736f3j/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/avi/Downloads/cm22/Project_2/Face_recognition_cleaned_and_ready/app/.cxx/Debug/6y736f3j/armeabi-v7a/CMakeFiles/facerecognition.dir
+/home/avi/Downloads/cm22/Project_2/Face_recognition_cleaned_and_ready/app/.cxx/Debug/6y736f3j/armeabi-v7a/CMakeFiles/app_glue.dir

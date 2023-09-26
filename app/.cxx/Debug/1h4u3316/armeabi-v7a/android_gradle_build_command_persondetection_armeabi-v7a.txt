@@ -1,0 +1,7 @@
+Executable : /home/krishnapriya/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/krishnapriya/Desktop/Office_work/Person_Detection/yolov5_person/snpe_yolov5/Android/persondetection/app/.cxx/Debug/1h4u3316/armeabi-v7a
+persondetection
+jvmArgs : 
+

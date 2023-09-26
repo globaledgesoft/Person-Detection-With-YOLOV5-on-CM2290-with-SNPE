@@ -1,0 +1,34 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/sachin/office_work/onetry/onetry/app/.cxx/Debug/1sb5y306/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/sachin/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_19337 && [1/2] Building CXX object CMakeFiles/cmTC_19337.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_19337.dir/CMakeCXXCompilerABI.cpp.o 
+/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot  -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/android/support/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++abi/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -std=c++11 std=c++11 -frtti -fexceptions  -fPIE   -v -MD -MT CMakeFiles/cmTC_19337.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_19337.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_19337.dir/CMakeCXXCompilerABI.cpp.o -c /home/sachin/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Android (4691093 based on r316199) clang version 6.0.2 (https://android.googlesource.com/toolchain/clang 183abd29fc496f55536e7d904e0abae47888fc7f) (https://android.googlesource.com/toolchain/llvm 34361f192e41ed6e4e8f9aca80a4ea7e9856f327) (based on LLVM 6.0.2svn)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: /home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@march=armv7-a@mthumb
+clang++: error: no such file or directory: 'std=c++11'
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/sachin/office_work/onetry/onetry/app/.cxx/Debug/1sb5y306/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/sachin/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c76c9 && [1/2] Building CXX object CMakeFiles/cmTC_c76c9.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_c76c9.dir/testCXXCompiler.cxx.o 
+/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/sachin/Android/Sdk/ndk/17.2.4988734/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot  -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/android/support/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/llvm-libc++abi/include -isystem /home/sachin/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 std=c++11 -frtti -fexceptions  -fPIE -MD -MT CMakeFiles/cmTC_c76c9.dir/testCXXCompiler.cxx.o -MF CMakeFiles/cmTC_c76c9.dir/testCXXCompiler.cxx.o.d -o CMakeFiles/cmTC_c76c9.dir/testCXXCompiler.cxx.o -c testCXXCompiler.cxx
+clang++: error: no such file or directory: 'std=c++11'
+ninja: build stopped: subcommand failed.
+
+
+

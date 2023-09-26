@@ -1,0 +1,6 @@
+# ninja log v5
+11	112	1639573561	CMakeFiles/onetry.dir/Native_Camera.cpp.o	eb50b86a2cf057a2
+13	639	1639573562	CMakeFiles/onetry.dir/classify_key.cpp.o	2be5f1f31c4f1685
+1	1102	1639573562	CMakeFiles/onetry.dir/Image_Reader.cpp.o	8c7cf71443e78327
+12	1669	1639573563	CMakeFiles/onetry.dir/utils.cpp.o	18bdacfaa77cac31
+12	2316	1639573563	CMakeFiles/onetry.dir/qcsnpe.cpp.o	8e9feb31054e6dc6
